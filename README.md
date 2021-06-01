@@ -4,8 +4,12 @@
 
 This repository is about 2 AI algorithms in solving sudoku.
 
-- Backtracking with Minimum Remaining Value Heuristic
-- Using Constraint Propagation to solve CSP(Constraint Satisfaction Problem)
+- [Backtracking with Minimum Remaining Value Heuristic](#1-backtracking-with-minimum-remaining-value-heuristic)
+- [Using Constraint Propagation to solve CSP(Constraint Satisfaction Problem)](#2-using-constraint-propagation-to-solve-cspconstraint-satisfaction-problem)
+
+<p align="center">
+  <img height="150px" src="assets/sudoku.PNG">
+</p>
 
 ## 1. Backtracking with Minimum Remaining Value Heuristic
 
@@ -77,13 +81,12 @@ After “destroying” these numbers, the algorithm has to step in a more clever
 And 3rd and most important part of algorithm: Only Choice functions. They are 3 separate (for a row, column, and 3x3 box) functions, and they are working in the same logic functions. For example, let`s explain it on only_choice_row function. We will look at every non-found cell and take their suitable digit lists. And try to find a unique digit that can be only in one cell. When the algorithm tries to do this logic also in a row, column, and 3x3 box, solving sudoku is getting more fast and efficient.
 
 This is an example that we have 4 non-found cells in the 3x3 box. They are:
-           “ 4 9 ” – “ 4 7 ” – “ 7 9 “ – “ 1 4 7 “
+“ 4 9 ” – “ 4 7 ” – “ 7 9 “ – “ 1 4 7 “
 And digit “1” can be in just one place. This is called the Only Choice method.
 
 <p align="center">
   <img height="200px" src="assets/csp5.PNG">
 </p>
-
 
 ### How whole these 3 parts working together.
 
@@ -94,3 +97,11 @@ And digit “1” can be in just one place. This is called the Only Choice metho
 Firstly elimination part working to eliminate non-suitable digits. After it, single suitable digit function working to find cells and eliminate working again. After doing the best elimination, starting working with only_choice functions. Let`s see the code to understand the whole loop.
 
 > This algorithm is almost 10x times faster than Backtracking.
+
+---
+
+<h3 align="center">
+    THANKS FOR READING
+</h3>
+
+---
