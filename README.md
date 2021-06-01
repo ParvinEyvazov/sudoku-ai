@@ -88,7 +88,7 @@ And digit “1” can be in just one place. This is called the Only Choice metho
 ### How whole these 3 parts working together.
 
 <p align="center">
-  <img height="200px" src="assets/loop.PNG">
+  <img height="200px" src="assets/loop.png">
 </p>
 
 Firstly elimination part working to eliminate non-suitable digits. After it, single suitable digit function working to find cells and eliminate working again. After doing the best elimination, starting working with only_choice functions. Let`s see the code to understand the whole loop.
