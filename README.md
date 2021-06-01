@@ -1,8 +1,8 @@
 # Sudoku-AI-CSP-vs-Backtracking
 
-- [Video link](https://youtu.be/AP__LKLhhuk)
+- [Video explanation](https://youtu.be/AP__LKLhhuk)
 
-This repository is about 2 AI algorithms in solving sudoku.
+This repository is all about 2 AI algorithms that have been used in solving sudoku.
 
 - [Backtracking with Minimum Remaining Value Heuristic](#1-backtracking-with-minimum-remaining-value-heuristic)
 - [Using Constraint Propagation to solve CSP(Constraint Satisfaction Problem)](#2-using-constraint-propagation-to-solve-cspconstraint-satisfaction-problem)
